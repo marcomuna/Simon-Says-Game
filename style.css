@@ -122,3 +122,28 @@ h2 {
 
   }
 }
+/* ? minimum height */
+@media (max-height: 450px) {
+  .box {
+    background-color: green;
+    height: 26vh;
+    width: 26vh;
+    border-radius: 1rem;
+    /* margin: 0.3rem; */
+  }
+  h1 {
+    font-size: 1rem;
+    color: red;
+  }
+  h2 {
+    font-size: 0.7rem;
+    margin: 1rem 1rem 0.7rem;
+    margin-top: 0.5rem;
+    opacity: 0;
+
+  }
+  .start{
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+  }
+}
